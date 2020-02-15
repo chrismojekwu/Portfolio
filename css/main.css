@@ -1,0 +1,126 @@
+.container {
+   position: relative;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.photocircle {
+    position: relative;
+    border: dotted lightgray;
+    border-width: 5px;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    
+}
+
+.biobox {
+    position: relative;
+    border: dotted lightgray;
+    border-width: 5px;
+    height: 330px;
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    bottom: 20px;
+    padding: 10px;
+}
+
+.socialMedia {
+    position: relative;
+    bottom: 580px;
+    width: 50px;
+    height: 130px;
+    border: dotted lightgray;
+    border-width: 5px;
+    visibility: hidden;
+
+}
+/******************PROJECTS**************/
+section.projects{
+    text-align: center;
+}
+input#projectExpand {
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 42px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 500px;
+}
+input#projectExpand:hover {
+    background-color: rgb(8, 87, 34);
+    transition: 0.3s;
+}
+.projects-main {
+    position: relative;
+    bottom: 40px;
+    border: dotted lightgray;
+    border-width: 5px;
+    width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.photo {
+    display:inline-block;
+    border: dotted lightgray;
+    border-width: 5px;
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    clear: both;
+
+}
+
+
+/***************TEXT STYLING*****************/
+
+h1.name {
+    position: relative;
+    bottom: 48px;
+    text-align: center;
+    color: gray;
+    text-shadow: 2px 2px 5px black;
+}
+h1.name2 {
+    position: relative;
+    bottom: 110px;
+    left: 5px;
+    text-align: center;
+}
+/********************************/
+h2.header {
+    position: relative;
+    bottom: 130px;
+    text-align: center;
+    color: gray;
+    text-shadow: 2px 2px 5px black;
+}
+h2.header2 {
+    position: relative;
+    bottom: 180px;
+    left: 5px;
+    text-align: center;
+}
+p.bio {
+    position: relative;
+    bottom: 200px;
+}
+
+/***************MEDIA QUERIES*****************/
+
+@media screen and (min-width:768px){
+    .biobox {
+        width: 550px;
+    }
+    
+    .socialMedia {
+        visibility: visible;
+    }
+}
