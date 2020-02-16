@@ -6,12 +6,13 @@
     position: relative;
     border: dotted lightgray;
     border-width: 5px;
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border-radius: 100%;
     margin-right: auto;
     margin-left: auto;
     align-items: center;
+    
     
 }
 
@@ -20,7 +21,7 @@
     border: dotted lightgray;
     border-width: 5px;
     height: 330px;
-    width: 450px;
+    width: 300px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 10px;
@@ -44,12 +45,12 @@ section.projects{
 }
 input#projectExpand {
     background-color: black;
-    color: white;
+    color: rgb(255, 225, 225);
     position: relative;
-    bottom: 42px;
+    bottom: 40px;
     font-size: 16px;
     cursor: pointer;
-    width: 500px;
+    width: 250px;
 }
 input#projectExpand:hover {
     background-color: rgb(8, 87, 34);
@@ -57,10 +58,10 @@ input#projectExpand:hover {
 }
 .projects-main {
     position: relative;
-    bottom: 40px;
+    bottom: 38px;
     border: dotted lightgray;
     border-width: 5px;
-    width: 550px;
+    width: 280px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -90,37 +91,68 @@ h1.name {
 }
 h1.name2 {
     position: relative;
-    bottom: 110px;
+    bottom: 147px;
     left: 5px;
     text-align: center;
 }
 /********************************/
 h2.header {
     position: relative;
-    bottom: 130px;
+    bottom: 165px;
     text-align: center;
     color: gray;
     text-shadow: 2px 2px 5px black;
 }
 h2.header2 {
     position: relative;
-    bottom: 180px;
+    bottom: 216px;
     left: 5px;
     text-align: center;
 }
 p.bio {
     position: relative;
-    bottom: 200px;
+    bottom: 225px;
+    font-size: 12px;
 }
 
 /***************MEDIA QUERIES*****************/
 
-@media screen and (min-width:768px){
+@media screen and (min-width:760px){
+    .biobox {
+        height: 250;
+    }
+    h1.name {
+    bottom: 48px;
+    } 
+
+    h1.name2 {
+     bottom: 110px;
+    }
+
+    h2.header {
+        bottom: 130px;
+    }
+    h2.header2 {
+        bottom: 180px;
+    }
+    p.bio {
+        bottom: 200px;
+        font-size: 16px;
+    }
+    
     .biobox {
         width: 550px;
     }
     
     .socialMedia {
         visibility: visible;
+    }
+
+    input#projectExpand {
+        width: 500px;
+    }
+
+    .projects-main {
+        width: 550px;
     }
 }
