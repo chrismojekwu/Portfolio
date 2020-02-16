@@ -137,11 +137,11 @@ p.bio {
     }
     p.bio {
         bottom: 200px;
-        font-size: 16px;
+        font-size: 15px;
     }
     
     .biobox {
-        width: 550px;
+        width: 450px;
     }
     
     .socialMedia {
@@ -149,10 +149,27 @@ p.bio {
     }
 
     input#projectExpand {
-        width: 500px;
+        width: 400px;
     }
 
     .projects-main {
-        width: 550px;
+        width: 450px;
     }
 }
+
+@media screen and (min-width:1024px){
+    .biobox {
+        width:550px;
+        height: 330px;
+    }
+    p.bio {
+        font-size: 16px;
+    }
+    .photocircle {
+        width: 250px;
+        height: 250px;
+    }
+    .projects-main {
+        width: 550px;
+    }
+}     
