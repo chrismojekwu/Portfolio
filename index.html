@@ -6,51 +6,88 @@
     <title>Christopher Mojekwu</title>
 
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"/>
+
 </head>
 <body>
     <div class="container">
         <div class="photocircle"></div>
         
         <div class="biobox">
+           
             <h1 class="name">CHRISTOPHER MOJEKWU</h1>
             <h1 class="name2">CHRISTOPHER MOJEKWU</h1>
-            <h2 class="header">HEADER</h2>
-            <h2 class="header2">HEADER</h2>
+            <h2 class="header">Full stack developer & music producer. </h2>
+            <h2 class="header2">Full stack developer & music producer. </h2>
+            
 
-            <p class="bio">Lorem ipsum, dolor sit amet consectetur adipisicing 
-                elit. Qui tempora dolore in ipsa repudiandae impedit 
-                onsectetur deserunt, nulla vel veritatis? Non excepturi 
-                itaque at placeat ipsa architecto officia voluptatum illo!
-                Lorem ipsum, dolor sit amet consectetur adipisicing 
-                elit. Qui tempora dolore in ipsa repudiandae impedit 
-                onsectetur deserunt, nulla vel veritatis? Non excepturi 
-                itaque at placeat ipsa architecto officia voluptatum illo!
-                Lorem ipsum, dolor sit amet consectetur adipisicing 
-                elit. Qui tempora dolore in ipsa repudiandae impedit 
-                onsectetur deserunt, nulla vel veritatis? Non excepturi SIBLE SECTION
-                itaque at placeat ipsa architecto officia voluptatum illo!
-                Lorem ipsum, dolor sit amet consectetur adipisicing 
-                elit. Qui tempora dolore in ipsa repudiandae impedit 
-                onsectetur deserunt, nulla vel veritatis? Non excepturi 
-                itaque at placeat ipsa architecto officia voluptatum illo!</p>
+            <p class="bio">Hi i'm Chris. I'm a current student of Thinkful’s Software Development program, born in Nigeria, based in Chicago.
+                I enjoy writing code because it allows me to think both logically and creatively to attain my goals. 
+                Progressing my knowledge as a developer is one of the most rewarding aspects of my life.
+                <br><br>
+                Outside of development, I'm an avid basketball and music fan. I spent the first part of my adult life as a music producer and digital label manager. 
+                I still produce, and find time to play basketball on occasion. </p>
         </div>
-        
+        <div class="socialMedia">
+            <a target="_blank" href="mailto:chrismojekwu@gmail.com">
+                <img class="icons" src="img/icons/email.png" alt="Email Icon" role="link"></a>
+            <a target="_blank" href="https://github.com/chrismojekwu">
+                <img class="icons" src="img/icons/github.png" alt="Github Icon" role="link"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/christopher-mojekwu-73a380126">
+                <img class="icons" src="img/icons/linkedin.png" alt="Linkedin Icon" role="link"></a>
+            <a target="_blank" href="https://www.instagram.com/mojek_/">
+                <img class="icons" src="img/icons/insta.png" alt="Instagram Icon" role="link"></a>
+            <a target="_blank" href="https://twitter.com/mojekmojek">
+                <img class="icons" src="img/icons/twitter.png" alt="Twitter Icon" role="link"></a>
+            <a target="_blank" href="https://soundcloud.com/see-motion">
+                    <img class="icons" src="img/icons/soundcloud.png" alt="Soundcloud Icon" role="link"></a>    
+          </div>
+
         <section class="projects">
-            <input type="button" id="projectExpand" value="Projects">
+            <input type="button" class="proj-button" id="projectExpand" role="button" value="PROJECTS">
              <div class="projects-main">
-                 <div class="photo 1">PHOTO</div><div class="photo two">PHOTO</div>
-                 <p class="photo-describe">PROJECT DESCRIPTION/COLLAPSIBLE SECTION</p>
-             </div>
+                 
+              <a href="#pic" rel="modal:open"><img class="photo one" alt="screenshot of Login form" src="img/SSIN2ITMOBILE.png"></a>
+              <img id="pic" class="hidephoto" alt="fullsized photo of Login form" src="img/IN2ITSS1.png">
+              <p class="photo-describe">
+                In2it Login Form
+                <br> Mockup login form for Chi Hack Night’s civil event database In2it. 
+                <br>Written with Html & Css.
+                <div class="proj-anchors">
+                    <a class="proj-anchors" href="https://chrismojekwu.github.io/In2it-Login-Mockup/">PAGE</a>
+                    <a class="proj-anchors" href="https://github.com/chrismojekwu/Quiz-App-WF">REPO</a>
+                </div>
+            </p>
+                 
+              <a href="#pic2" rel="modal:open"><img class="photo one" src="img/SSQUIZDESK.png" alt="Screenshot of Michael Jordan Quiz App"></a>
+              <img id="pic2" class="hidephoto" alt="fullsized photo of Michael Jordan quiz" id="pic2" src="img/SSQUIZDESK.png">
+              <p class="photo-describe">
+                Thinkful Quiz App Project
+                <br> Interactive quiz about Michael Jordan.
+                <br>Written with Html, Css, JQuery & Javascript.
+                <div class="proj-anchors">
+                    <a class="proj-anchors" href="https://chrismojekwu.github.io/Quiz-App-WF/">PAGE</a>
+                    <a class="proj-anchors" href="https://github.com/chrismojekwu/In2it-Login-Mockup">REPO</a>
+                </div>
+                </p>
+            
+            </div>
         </section>
 
+        
 
 
-
-        <div class="socialMedia">
-          SOCIAL MEDIA ICONS ----------------
-        </div>
+        
     </div>
 
+    
+
+ <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
