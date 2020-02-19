@@ -20,7 +20,7 @@ body {
 
 .biobox {
     position: relative;
-    height: 400px;
+    height: 420px;
     width: 290px;
     margin-right: auto;
     margin-left: auto;
@@ -160,7 +160,7 @@ p.bio {
     font-size: 16px;
     font-family: 'Dosis', sans-serif;
     padding: 10px;
-    color: rgb(220, 226, 236);
+    color: lightgray;
     line-height: 22px;
 }
 
@@ -220,7 +220,7 @@ p.bio {
 @media screen and (min-width:1020px){
     .biobox {
         width:550px;
-        height: 200px;
+        height: 220px;
     }
     
     h1.name {
