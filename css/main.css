@@ -48,6 +48,23 @@ body {
     padding-top: 10px;
     cursor: pointer;
 }
+
+/******************POPUP**************/
+
+#popup-content {
+    font-family: 'Dosis', sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+.charity {
+    display: block;
+}
+
+.solidarity {
+    height:250px;
+    width:auto;
+}
 /******************PROJECTS**************/
 section.projects{
     text-align: center;
@@ -167,6 +184,8 @@ p.bio {
     color: lightgray;
     line-height: 22px;
 }
+
+
 
 /***************MEDIA QUERIES*****************/
 

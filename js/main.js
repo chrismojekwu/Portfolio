@@ -3,4 +3,5 @@ $('.proj-button').on('click', e=> {
    })
 });
 
+$("#popup").click()
 
