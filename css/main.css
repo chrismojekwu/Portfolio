@@ -1,291 +1,284 @@
 body {
-    background-color: rgb(177, 126, 80);
+  background-color: rgb(177, 126, 80);
 }
 .container {
-   position: relative;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 .photocircle {
-    background-image: linear-gradient(yellow,purple);
-    position: relative;
-    height: 200px;
-    width: 200px;
-    border-radius: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    align-items: center;
-    
-    
+  background-image: linear-gradient(yellow, purple);
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
 }
 
 .biobox {
-    position: relative;
-    height: 420px;
-    width: 290px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 10px;
-    bottom: 30px;
-    padding: 10px;
-    background-color: rgb(146, 77, 60);
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+  position: relative;
+  height: 420px;
+  width: 290px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+  bottom: 30px;
+  padding: 10px;
+  background-color: rgb(146, 77, 60);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
 }
 
 .socialMedia {
-    position: relative;
-    bottom: 445px;
-    width: 300px;
-    left: 120px;
-    height: 130px;
-    visibility: visible;
-    text-align: center;
+  position: relative;
+  bottom: 445px;
+  width: 300px;
+  left: 120px;
+  height: 130px;
+  visibility: visible;
+  text-align: center;
 }
 
 .icons {
-    height: 20px;
-    width: auto;
-    padding-top: 10px;
-    cursor: pointer;
+  height: 20px;
+  width: auto;
+  padding-top: 10px;
+  cursor: pointer;
 }
 
 /******************POPUP**************/
 
 #popup-content {
-    font-family: 'Dosis', sans-serif;
-    margin: auto;
-    text-align: center;
+  font-family: "Dosis", sans-serif;
+  margin: auto;
+  text-align: center;
 }
 
 .charity {
-    display: block;
+  display: block;
 }
 
 .solidarity {
-    height:250px;
-    width:auto;
+  height: 250px;
+  width: auto;
 }
 /******************PROJECTS**************/
-section.projects{
-    text-align: center;
+section.projects {
+  text-align: center;
 }
 input#projectExpand {
-    background-color: black;
-    color: rgb(255, 225, 225);
-    position: relative;
-    bottom: 180px;
-    font-size: 14px;
-    cursor: pointer;
-    width: 250px;
-    border: none;
-    line-height: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    opacity: 1;
+  background-color: black;
+  color: rgb(255, 225, 225);
+  position: relative;
+  bottom: 180px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 250px;
+  border: none;
+  line-height: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  opacity: 1;
 }
 input#projectExpand:hover {
-    background-color: rgb(23, 86, 110);
-    transition: 0.3s;
+  background-color: rgb(23, 86, 110);
+  transition: 0.3s;
 }
 .projects-main {
-    position: relative;
-    background-color: rgb(38, 66, 66);
-    color: lightgray;
-    font-family: 'Dosis', sans-serif;
-    bottom: 175px;
-    width: 280px;
-    margin-right: auto;
-    margin-left: auto;
-    display: none;
-    overflow: hidden;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    padding: 10px;
+  position: relative;
+  background-color: rgb(38, 66, 66);
+  color: lightgray;
+  font-family: "Dosis", sans-serif;
+  bottom: 175px;
+  width: 280px;
+  margin-right: auto;
+  margin-left: auto;
+  display: none;
+  overflow: hidden;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
 }
 
 .proj-anchors {
-    font-size: 20px;
-    font-weight: 900;
-    cursor: pointer;
-    text-decoration:none;
+  font-size: 20px;
+  font-weight: 900;
+  cursor: pointer;
+  text-decoration: none;
 }
 .proj-anchors:visited {
-   color: lightgray;
+  color: lightgray;
 }
 .proj-anchors:hover {
-    color: rgb(129, 170, 67);
-    transition: 0.25s;
- }
+  color: rgb(129, 170, 67);
+  transition: 0.25s;
+}
 
 .photo {
-    display:inline-block;
-    height: 100px;
-    width: 200px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 10px;
-    object-fit: cover;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
 }
 
 .hidephoto {
-    display: none;
+  display: none;
 }
-
 
 /***************TEXT STYLING*****************/
 
 h1.name {
-    display: flex;
-    position: relative;
-    bottom: 48px;
-    right: 15px;
-    text-align: left;
-    color: rgb(61, 67, 85);
-    text-shadow: 2px 2px 5px black;
+  display: flex;
+  position: relative;
+  bottom: 48px;
+  right: 15px;
+  text-align: left;
+  color: rgb(61, 67, 85);
+  text-shadow: 2px 2px 5px black;
 }
 h1.name2 {
-    display: flex;
-    position: relative;
-    bottom: 147px;
-    right: 20px;
-    text-align: left;
-    color: rgb(255, 147, 163);
+  display: flex;
+  position: relative;
+  bottom: 147px;
+  right: 20px;
+  text-align: left;
+  color: rgb(255, 147, 163);
 }
 /********************************/
 h2.header {
-    font-size: 14px;
-    position: relative;
-    bottom: 165px;
-    right: 25px;
-    text-align: center; 
-    color: rgb(83, 61, 45);
-    text-shadow: 2px 2px 5px black;
-    white-space: nowrap;
+  font-size: 14px;
+  position: relative;
+  bottom: 165px;
+  right: 25px;
+  text-align: center;
+  color: rgb(83, 61, 45);
+  text-shadow: 2px 2px 5px black;
+  white-space: nowrap;
 }
 h2.header2 {
-    font-size: 14px;
-    position: relative;
-    bottom: 195px;
-    right: 30px;
-    text-align: center;
-    color: rgb(228, 172, 53);
-    white-space: nowrap;
+  font-size: 14px;
+  position: relative;
+  bottom: 195px;
+  right: 30px;
+  text-align: center;
+  color: rgb(228, 172, 53);
+  white-space: nowrap;
 }
 p.bio {
-    position: relative;
-    bottom: 205px;
-    font-size: 16px;
-    font-family: 'Dosis', sans-serif;
-    padding: 10px;
-    color: lightgray;
-    line-height: 22px;
+  position: relative;
+  bottom: 205px;
+  font-size: 16px;
+  font-family: "Dosis", sans-serif;
+  padding: 10px;
+  color: lightgray;
+  line-height: 22px;
 }
-
-
 
 /***************MEDIA QUERIES*****************/
 
-@media screen and (min-width:760px){
-    .biobox {
-        height: 250px;
-    }
-    h1.name {
-    text-align: center; 
+@media screen and (min-width: 760px) {
+  .biobox {
+    height: 250px;
+  }
+  h1.name {
+    text-align: center;
     bottom: 48px;
-    } 
+  }
 
-    h1.name2 {
-     text-align: center;   
-     bottom: 110px;
-    }
+  h1.name2 {
+    text-align: center;
+    bottom: 110px;
+  }
 
-    h2.header {
-        bottom: 130px;
-    }
-    h2.header2 {
-        bottom: 160px;
-    }
-    p.bio {
-        bottom: 170px;
-        font-size: 16px;
-        line-height: 22px;
-    }
-    
-    .biobox {
-        width: 450px;
-    }
-    
-    .socialMedia {
-        position: relative;
-        bottom: 300px;
-        width: 50px;
-        left: 0px;
-        height: 130px;
-        visibility: visible;
-        text-align: center;
-    }
-    .icons {
-        height: 25px;
-    }
-    input#projectExpand {
-        width: 400px;
-    }
+  h2.header {
+    bottom: 130px;
+  }
+  h2.header2 {
+    bottom: 160px;
+  }
+  p.bio {
+    bottom: 170px;
+    font-size: 16px;
+    line-height: 22px;
+  }
 
-    .projects-main {
-        width: 450px;
-    }
+  .biobox {
+    width: 450px;
+  }
+
+  .socialMedia {
+    position: relative;
+    bottom: 300px;
+    width: 50px;
+    left: 0px;
+    height: 130px;
+    visibility: visible;
+    text-align: center;
+  }
+  .icons {
+    height: 25px;
+  }
+  input#projectExpand {
+    width: 400px;
+  }
+
+  .projects-main {
+    width: 450px;
+  }
 }
 
-@media screen and (min-width:1020px){
-    .biobox {
-        width:550px;
-        height: 220px;
-    }
-    
-    h1.name {
-        text-align: left;
-        font-size: 60px;
-        bottom: 280px;
-        right: 340px;
-        white-space: nowrap;
-    }
-    h1.name2 {
-        text-align: left;
-        font-size: 60px;
-        bottom: 395px;
-        right: 345px;
-        white-space: nowrap;
-    }
+@media screen and (min-width: 1020px) {
+  .biobox {
+    width: 550px;
+    height: 220px;
+  }
 
+  h1.name {
+    text-align: left;
+    font-size: 60px;
+    bottom: 280px;
+    right: 47%;
+    white-space: nowrap;
+  }
+  h1.name2 {
+    text-align: left;
+    font-size: 60px;
+    bottom: 395px;
+    right: 46%;
+    white-space: nowrap;
+  }
 
-    h2.header {
-        bottom: 440px;
-        right: 300px;
-    }
-    h2.header2 {
-        bottom: 470px;
-        right: 300px;
-    }
+  h2.header {
+    bottom: 440px;
+    right: 300px;
+  }
+  h2.header2 {
+    bottom: 470px;
+    right: 300px;
+  }
 
+  p.bio {
+    bottom: 320px;
+  }
 
-    p.bio {
-        bottom: 320px;
-        
-    }
-    
-    .photocircle {
-        width: 250px;
-        height: 250px;
-    }
-    .projects-main {
-        width: 550px;
-    }
+  .photocircle {
+    width: 250px;
+    height: 250px;
+  }
+  .projects-main {
+    width: 550px;
+  }
 
-    .socialMedia {
-        bottom: 250px;
-    }
-}     
+  .socialMedia {
+    bottom: 250px;
+  }
+}
