@@ -48,6 +48,11 @@ body {
   cursor: pointer;
 }
 
+.icons:hover {
+  filter: invert(1) hue-rotate(210deg);
+  transition: 0.3s;
+}
+
 /******************POPUP**************/
 
 #popup-content {
