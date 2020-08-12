@@ -97,7 +97,7 @@ input#projectExpand:hover {
 .projects-main {
   position: relative;
   background-color: rgb(38, 66, 66);
-  color: lightgray;
+  color: rgb(255, 255, 255);
   font-family: "Dosis", sans-serif;
   bottom: 175px;
   width: 280px;
