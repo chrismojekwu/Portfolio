@@ -1,1 +1,1 @@
-Thinkful's Portfolio Assignment
+Personal Portfolio
