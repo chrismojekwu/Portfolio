@@ -32,10 +32,11 @@ body {
 }
 
 .socialMedia {
-  position: sticky;
+  position: relative;
   width: fit-content;
+  top: 10%;
   left: 50%;
-  bottom: 40%;
+  bottom: 465px;
   height: 130px;
   visibility: visible;
   text-align: center;
