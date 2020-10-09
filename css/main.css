@@ -2,9 +2,9 @@ body {
   background-color: rgb(177, 126, 80);
 }
 .container {
-  position: relative;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  margin: auto;
 }
 .photocircle {
   background-image: linear-gradient(yellow, purple);
@@ -34,8 +34,8 @@ body {
 .socialMedia {
   position: relative;
   bottom: 465px;
-  width: 300px;
-  left: 120px;
+  width: fit-content;
+  left: 180px;
   height: 130px;
   visibility: visible;
   text-align: center;
@@ -143,6 +143,7 @@ input#projectExpand:hover {
 .photo-describe {
   position: relative;
   bottom: 38px;
+  font-size: larger;
 }
 
 /***************TEXT STYLING*****************/
@@ -218,7 +219,6 @@ p.bio {
   }
   p.bio {
     bottom: 170px;
-    font-size: 16px;
     line-height: 22px;
   }
 
@@ -279,6 +279,7 @@ p.bio {
 
   p.bio {
     bottom: 320px;
+    font-size: 20px;
   }
 
   .photocircle {

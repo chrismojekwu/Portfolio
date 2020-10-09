@@ -1,158 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Christopher Mojekwu</title>
 
-    <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"/>
-
-</head>
-<body>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+    />
+  </head>
+  <body>
     <div class="container">
-        <div class="photocircle"></div>
-        
-        <div class="biobox">
-           
-            <h1 class="name">CHRISTOPHER MOJEKWU</h1>
-            <h1 class="name2">CHRISTOPHER MOJEKWU</h1>
-            <h2 class="header">Full stack developer & music producer. </h2>
-            <h2 class="header2">Full stack developer & music producer. </h2>
-            
+      <div class="photocircle"></div>
 
-            <p class="bio">Hi I'm Chris. I'm a current student of Thinkful’s Software Development program. I was born in Nigeria, and I'm currently based in Chicago.
-                I enjoy writing code because it allows me to think both logically and creatively to attain my goals. 
-                Progressing my knowledge as a developer, and working alongside likeminded people is my passion.
-                <br><br>
-                Outside of development, I'm an avid basketball and music fan. I spent the first part of my adult life as a music producer and digital label manager. 
-                I still produce and find time to play basketball on occasion. </p>
-        </div>
-        <div class="socialMedia">
-            <a target="_blank" href="mailto:chrismojekwu@gmail.com">
-                <img class="icons" src="img/icons/email.png" alt="Email Icon" role="link" title="Email Me"></a>
-            <a target="_blank" href="https://github.com/chrismojekwu">
-                <img class="icons" src="img/icons/github.png" alt="Github Icon" role="link" title="Check out my Github"></a>
-            <a target="_blank" href="https://www.linkedin.com/in/christopher-mojekwu-73a380126">
-                <img class="icons" src="img/icons/linkedin.png" alt="Linkedin Icon" role="link" title="Connect on Linkedin"></a>
-            <a target="_blank" href="https://www.instagram.com/mojek_/">
-                <img class="icons" src="img/icons/insta.png" alt="Instagram Icon" role="link" title="Look at my Instagram"></a>
-            <a target="_blank" href="https://twitter.com/mojekmojek">
-                <img class="icons" src="img/icons/twitter.png" alt="Twitter Icon" role="link" title="Read my Twitter"></a>
-            <a target="_blank" href="https://soundcloud.com/see-motion">
-                    <img class="icons" src="img/icons/soundcloud.png" alt="Soundcloud Icon" role="link" title="Listen to my Soundcloud"></a>    
+      <div class="biobox">
+        <h1 class="name">CHRISTOPHER MOJEKWU</h1>
+        <h1 class="name2">CHRISTOPHER MOJEKWU</h1>
+        <h2 class="header">Full stack developer & music producer.</h2>
+        <h2 class="header2">Full stack developer & music producer.</h2>
+
+        <p class="bio">
+          Hi I'm Chris. I'm a current student of Thinkful’s Software Development
+          program. I was born in Nigeria, and I'm currently based in Chicago. I
+          enjoy writing code because it allows me to think both logically and
+          creatively to attain my goals. Progressing my knowledge as a
+          developer, and working alongside likeminded people is my passion.
+          <br /><br />
+          Outside of development, I'm an avid basketball and music fan. I spent
+          the first part of my adult life as a music producer and digital label
+          manager. I still produce and find time to play basketball on occasion.
+        </p>
+      </div>
+      <div class="socialMedia">
+        <a target="_blank" href="mailto:chrismojekwu@gmail.com">
+          <img
+            class="icons"
+            src="img/icons/email.png"
+            alt="Email Icon"
+            role="link"
+            title="Email Me"
+        /></a>
+        <a target="_blank" href="https://github.com/chrismojekwu">
+          <img
+            class="icons"
+            src="img/icons/github.png"
+            alt="Github Icon"
+            role="link"
+            title="Check out my Github"
+        /></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/christopher-mojekwu-73a380126"
+        >
+          <img
+            class="icons"
+            src="img/icons/linkedin.png"
+            alt="Linkedin Icon"
+            role="link"
+            title="Connect on Linkedin"
+        /></a>
+        <a target="_blank" href="https://www.instagram.com/mojek_/">
+          <img
+            class="icons"
+            src="img/icons/insta.png"
+            alt="Instagram Icon"
+            role="link"
+            title="Look at my Instagram"
+        /></a>
+        <a target="_blank" href="https://twitter.com/mojekmojek">
+          <img
+            class="icons"
+            src="img/icons/twitter.png"
+            alt="Twitter Icon"
+            role="link"
+            title="Read my Twitter"
+        /></a>
+        <a target="_blank" href="https://soundcloud.com/see-motion">
+          <img
+            class="icons"
+            src="img/icons/soundcloud.png"
+            alt="Soundcloud Icon"
+            role="link"
+            title="Listen to my Soundcloud"
+        /></a>
+      </div>
+
+      <section class="projects">
+        <input
+          type="button"
+          class="proj-button"
+          id="projectExpand"
+          value="PROJECTS"
+        />
+        <div class="projects-main">
+          <a href="#pic" rel="modal:open"
+            ><img
+              class="photo one"
+              alt="screenshot of Login form"
+              src="img/SSIN2ITMOBILE.png"
+          /></a>
+          <img
+            id="pic"
+            class="hidephoto"
+            alt="fullsized photo of Login form"
+            src="img/in2itmobile.png"
+          />
+          <h2 class="proj-title">In2it Login Form</h2>
+          <p class="photo-describe">
+            <br />
+            I made a Mockup login form for Chi Hack Night’s civil event database
+            In2it. <br />Written with Html & Css.
+          </p>
+          <div class="proj-anchors">
+            <a
+              target="_blank"
+              class="proj-anchors"
+              href="https://chrismojekwu.github.io/In2it-Login-Mockup/"
+              >PROJECT</a
+            >
+            <a
+              target="_blank"
+              class="proj-anchors"
+              href="https://github.com/chrismojekwu/In2it-Login-Mockup"
+              >REPO</a
+            >
           </div>
 
-        <section class="projects">
-            <input type="button" class="proj-button" id="projectExpand" value="PROJECTS">
-             <div class="projects-main">
-                 
-              <a href="#pic" rel="modal:open"><img class="photo one" alt="screenshot of Login form" src="img/SSIN2ITMOBILE.png"></a>
-              <img id="pic" class="hidephoto" alt="fullsized photo of Login form" src="img/in2itmobile.png">
-              <h2 class="proj-title">In2it Login Form</h2>
-              <p class="photo-describe">               
-                <br> I made a Mockup login form for Chi Hack Night’s civil event database In2it. 
-                <br>Written with Html & Css.
-                <div class="proj-anchors">
-                    <a target="_blank" class="proj-anchors" href="https://chrismojekwu.github.io/In2it-Login-Mockup/">PROJECT</a>
-                    <a target="_blank" class="proj-anchors" href="https://github.com/chrismojekwu/In2it-Login-Mockup">REPO</a>
-                </div>
-            </p>
-                 
-              <a href="#pic2" rel="modal:open"><img class="photo one" src="img/SSQUIZDESK.png" alt="Screenshot of Michael Jordan Quiz App"></a>
-              <img id="pic2" class="hidephoto" alt="fullsized photo of Michael Jordan quiz" src="img/SSQUIZDESK.png">
-              <h2 class="proj-title">Michael Jordan Quiz</h2>
-              <p class="photo-describe">
-                <br> I made an Interactive quiz about Michael Jordan that responds with a score upon completion.
-                <br>Written with Html, Css, JQuery & Javascript.
-                <div class="proj-anchors">
-                    <a target="_blank" class="proj-anchors" href="https://chrismojekwu.github.io/Quiz-App-WF/">PROJECT</a>
-                    <a target="_blank" class="proj-anchors" href="https://github.com/chrismojekwu/Quiz-App-WF">REPO</a>
-                </div>
-                </p>
+          <a href="#pic2" rel="modal:open"
+            ><img
+              class="photo one"
+              src="img/SSQUIZDESK.png"
+              alt="Screenshot of Michael Jordan Quiz App"
+          /></a>
+          <img
+            id="pic2"
+            class="hidephoto"
+            alt="fullsized photo of Michael Jordan quiz"
+            src="img/SSQUIZDESK.png"
+          />
+          <h2 class="proj-title">Michael Jordan Quiz</h2>
+          <p class="photo-describe">
+            <br />
+            I made an Interactive quiz about Michael Jordan that responds with a
+            score upon completion. <br />Written with Html, Css, JQuery &
+            Javascript.
+          </p>
+          <div class="proj-anchors">
+            <a
+              target="_blank"
+              class="proj-anchors"
+              href="https://chrismojekwu.github.io/Quiz-App-WF/"
+              >PROJECT</a
+            >
+            <a
+              target="_blank"
+              class="proj-anchors"
+              href="https://github.com/chrismojekwu/Quiz-App-WF"
+              >REPO</a
+            >
+          </div>
 
-              <a href="#pic3" rel="modal:open"><img class="photo one" src="img/apimobile.png" alt="Screenshot of WeatherSports App"></a>
-              <img id="pic3" class="hidephoto" alt="fullsized photo of WeatherSports App" src="img/apidesk.png">
-              <h2 class="proj-title">WeatherSports</h2>
-              <p class="photo-describe">   
-                  <br> I made a web application that helps users choose activites based on a specified locations weather.
-                  <br>Written with Html, Css, JQuery & Javascript.
-                  <div class="proj-anchors">
-                      <a target="_blank" class="proj-anchors" href="https://chrismojekwu.github.io/WeatherSports/">PROJECT</a>
-                      <a target="_blank" class="proj-anchors" href="https://github.com/chrismojekwu/WeatherSports">REPO</a>
-                  </div>
-              </p>
+          <a href="#pic3" rel="modal:open"
+            ><img
+              class="photo one"
+              src="img/apimobile.png"
+              alt="Screenshot of WeatherSports App"
+          /></a>
+          <img
+            id="pic3"
+            class="hidephoto"
+            alt="fullsized photo of WeatherSports App"
+            src="img/apidesk.png"
+          />
+          <h2 class="proj-title">WeatherSports</h2>
+          <p class="photo-describe">
+            <br />
+            I made a web application that helps users choose activities based on
+            a specified locations weather. <br />Written with Html, Css, JQuery
+            & Javascript.
+          </p>
+          <div class="proj-anchors">
+            <a
+              target="_blank"
+              class="proj-anchors"
+              href="https://chrismojekwu.github.io/WeatherSports/"
+              >PROJECT</a
+            >
+            <a
+              target="_blank"
+              class="proj-anchors"
+              href="https://github.com/chrismojekwu/WeatherSports"
+              >REPO</a
+            >
+          </div>
 
-               <a href="#pic4" rel="modal:open"><img class="photo one" src="img/OTBDesk.png" alt="Screenshot of One Touch Bus App"></a>
-               <img id="pic4" class="hidephoto" alt="fullsized photo of One Touch Bus App" src="img/OTBMobile.png">
-                <h2 class="proj-title">One Touch Bus (Chicago)</h2>
-               <p class="photo-describe">
-                 <br>  I used multiple Geolocation APIs and Chicago's CTA Bus Tracker API to create a web application that finds nearby buses with in a single click. As of now it can only respond within the city limits of Chicago.
-                 <br>Written with Html, Css, Javascript, React & Leaflet.
-                 <div class="proj-anchors">
-                     <a target="_blank" class="proj-anchors" href="https://onetouchbus.herokuapp.com/">PROJECT</a>
-                     <a target="_blank" class="proj-anchors" href="https://github.com/chrismojekwu/One-Touch-Bus">REPO</a>
-                 </div>
-               </p> 
+          <a href="#pic4" rel="modal:open"
+            ><img
+              class="photo one"
+              src="img/OTBDesk.png"
+              alt="Screenshot of One Touch Bus App"
+          /></a>
+          <img
+            id="pic4"
+            class="hidephoto"
+            alt="fullsized photo of One Touch Bus App"
+            src="img/OTBMobile.png"
+          />
+          <h2 class="proj-title">One Touch Bus (Chicago)</h2>
+          <p class="photo-describe">
+            <br />
+            I used multiple Geolocation APIs and Chicago's CTA Bus Tracker API
+            to create a web application that finds nearby buses with in a single
+            click. As of now it can only respond within the city limits of
+            Chicago. <br />Written with Html, Css, Javascript, React & Leaflet.
+          </p>
+          <div class="proj-anchors">
+            <a
+              target="_blank"
+              class="proj-anchors"
+              href="https://onetouchbus.herokuapp.com/"
+              >PROJECT</a
+            >
+            <a
+              target="_blank"
+              class="proj-anchors"
+              href="https://github.com/chrismojekwu/One-Touch-Bus"
+              >REPO</a
+            >
+          </div>
 
-               <a href="#pic5" rel="modal:open"><img class="photo one" src="img/screendesk1.png" alt="Screenshot of Kids Learn App"></a>
-               <img id="pic5" class="hidephoto" alt="fullsized photo of Kids Learn App" src="img/screendesk2.png">
-               <h2 class="proj-title">KidsLearn</h2>
-               <p class="photo-describe">                
-                 <br> KidsLearn is an application centered around children toddlers and their parents. Its meant to help parents teach the basics and provide young children with more productive screentime.
-                 <br>Written with Html, Css, Javascript, React, Node, Express, & PostgreSQL.
-                 <div class="proj-anchors">
-                     <a target="_blank" class="proj-anchors" href="https://kidslearn.vercel.app/">PROJECT</a>
-                     <a target="_blank" class="proj-anchors" href="https://github.com/chrismojekwu/KidsLearn-client">REPO</a>
-                 </div>
-               </p> 
+          <a href="#pic5" rel="modal:open"
+            ><img
+              class="photo one"
+              src="img/screendesk1.png"
+              alt="Screenshot of Kids Learn App"
+          /></a>
+          <img
+            id="pic5"
+            class="hidephoto"
+            alt="fullsized photo of Kids Learn App"
+            src="img/screendesk2.png"
+          />
+          <h2 class="proj-title">KidsLearn</h2>
+          <p class="photo-describe">
+            <br />
+            KidsLearn is an application centered around children toddlers and
+            their parents. It's meant to help parents teach the basics and
+            provide young children with more productive screen time.
+            <br />Written with Html, Css, Javascript, React, Node, Express, &
+            PostgreSQL.
+          </p>
+          <div class="proj-anchors">
+            <a
+              target="_blank"
+              class="proj-anchors"
+              href="https://kidslearn.vercel.app/"
+              >PROJECT</a
+            >
+            <a
+              target="_blank"
+              class="proj-anchors"
+              href="https://github.com/chrismojekwu/KidsLearn-client"
+              >REPO</a
+            >
+          </div>
 
-               <a href="#pic6" rel="modal:open"><img class="photo one" src="img/devitdesk.png" alt="Screenshot of Dev It App"></a>
-               <img id="pic6" class="hidephoto" alt="fullsized photo of Dev it App" src="img/devitmobile.png">
-               <h2 class="proj-title">Dev.it</h2>
-               <p class="photo-describe">               
-                 <br> As apart of a group I helped to build Dev.it. A web application that connects businesses with freelance developers. It allows a user to search using specified skills, make offers and communicate thru private messages.  
-                 <br>Written with Html, Css, Javascript, React, Node, Express, & PostgreSQL.
-                 <div class="proj-anchors">
-                     <a target="_blank" class="proj-anchors" href="https://capstone11.vercel.app/">PROJECT</a>
-                     <a target="_blank" class="proj-anchors" href="https://github.com/ttilley02/devit">REPO</a>
-                 </div>
-               </p> 
-               
-               <section class="charities-popup">
-                  <a href="#popup-content" rel="modal:open" id="popup">
-                  </a>
-   
-                  <div class="hidephoto" id="popup-content">
-                     <img class="solidarity" src="img/solidarity.png" alt="illustration of people holding hands">
-                     <h2>Ways to assist the efforts in Chicago. <br> Black Lives Matter. Justice For All. </h2>
-                     <br>Thankful For Chicago
-                     <a target="_blank" class="charity" href="https://www.thankfulforchicago.org/">https://www.thankfulforchicago.org/</a>
-                     Chicago Community Bond Fund
-                     <a target="_blank" class="charity" href="https://chicagobond.org/">https://chicagobond.org/</a>
-                     Social Works Chicago
-                     <a target="_blank" class="charity" href="https://www.socialworkschi.org/">https://www.socialworkschi.org/</a>
-                  </div>
-              </section>
+          <a href="#pic6" rel="modal:open"
+            ><img
+              class="photo one"
+              src="img/devitdesk.png"
+              alt="Screenshot of Dev It App"
+          /></a>
+          <img
+            id="pic6"
+            class="hidephoto"
+            alt="fullsized photo of Dev it App"
+            src="img/devitmobile.png"
+          />
+          <h2 class="proj-title">Dev.it</h2>
+          <p class="photo-describe">
+            <br />
+            As apart of a group I helped to build Dev.it. A web application that
+            connects businesses with freelance developers. It allows a user to
+            search using specified skills, make offers and communicate thru
+            private messages. <br />Written with Html, Css, Javascript, React,
+            Node, Express, & PostgreSQL.
+          </p>
+          <div class="proj-anchors">
+            <a
+              target="_blank"
+              class="proj-anchors"
+              href="https://capstone11.vercel.app/"
+              >PROJECT</a
+            >
+            <a
+              target="_blank"
+              class="proj-anchors"
+              href="https://github.com/ttilley02/devit"
+              >REPO</a
+            >
+          </div>
 
-            
+          <section class="charities-popup">
+            <a href="#popup-content" rel="modal:open" id="popup"> </a>
+
+            <div class="hidephoto" id="popup-content">
+              <img
+                class="solidarity"
+                src="img/solidarity.png"
+                alt="illustration of people holding hands"
+              />
+              <h2>
+                Ways to assist the efforts in Chicago. <br />
+                Black Lives Matter. Justice For All.
+              </h2>
+              <br />Thankful For Chicago
+              <a
+                target="_blank"
+                class="charity"
+                href="https://www.thankfulforchicago.org/"
+                >https://www.thankfulforchicago.org/</a
+              >
+              Chicago Community Bond Fund
+              <a target="_blank" class="charity" href="https://chicagobond.org/"
+                >https://chicagobond.org/</a
+              >
+              Social Works Chicago
+              <a
+                target="_blank"
+                class="charity"
+                href="https://www.socialworkschi.org/"
+                >https://www.socialworkschi.org/</a
+              >
             </div>
-        </section>
-
-        
-
-
-        
+          </section>
+        </div>
+      </section>
     </div>
 
-    
-
- <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-<script src="js/main.js"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
