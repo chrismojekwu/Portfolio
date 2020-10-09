@@ -122,7 +122,7 @@ input#projectExpand:hover {
   color: lightgray;
 }
 .proj-anchors:hover {
-  color: rgb(129, 170, 67);
+  color: rgb(231, 135, 79);
   transition: 0.25s;
 }
 
