@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(177, 126, 80);
+  background-color: rgb(54, 153, 63);
 }
 .container {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -7,7 +7,7 @@ body {
   margin: auto;
 }
 .photocircle {
-  background-image: linear-gradient(yellow, purple);
+  background-image: linear-gradient(rgb(65, 95, 177), rgb(18, 216, 173));
   position: relative;
   height: 200px;
   width: 200px;
@@ -26,7 +26,7 @@ body {
   margin-bottom: 10px;
   bottom: 30px;
   padding: 10px;
-  background-color: rgb(146, 77, 60);
+  background-color: rgb(62, 16, 92);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
@@ -97,15 +97,16 @@ input#projectExpand:hover {
 }
 .projects-main {
   position: relative;
-  background-color: rgb(38, 66, 66);
+  background-color: rgb(39, 57, 73);
   color: rgb(255, 255, 255);
   font-family: "Dosis", sans-serif;
   bottom: 175px;
   width: 280px;
+  height: 380px;
   margin-right: auto;
   margin-left: auto;
   display: none;
-  overflow: hidden;
+  overflow-y: scroll;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   padding: 10px;
 }
@@ -145,6 +146,12 @@ input#projectExpand:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
+.photo:hover {
+  filter: grayscale(85%);
+  border: solid chartreuse 2px;
+  box-shadow: 0 8px 10px 2 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
 
 .hidephoto {
   display: none;
@@ -172,7 +179,7 @@ h1.name2 {
   bottom: 147px;
   right: 20px;
   text-align: left;
-  color: rgb(255, 147, 163);
+  color: rgb(145, 229, 255);
 }
 /********************************/
 h2.header {
@@ -191,7 +198,7 @@ h2.header2 {
   bottom: 195px;
   right: 30px;
   text-align: center;
-  color: rgb(228, 172, 53);
+  color: rgb(196, 228, 53);
   white-space: nowrap;
 }
 p.bio {
@@ -261,8 +268,8 @@ p.bio {
 
 @media screen and (min-width: 1020px) {
   .biobox {
-    width: 550px;
-    height: 220px;
+    width: 580px;
+    height: 250px;
   }
 
   h1.name {
