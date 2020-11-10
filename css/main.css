@@ -123,7 +123,7 @@ input#projectExpand:hover {
   color: lightgray;
 }
 .proj-anchors:hover {
-  color: rgb(231, 135, 79);
+  color: rgb(235, 72, 72);
   transition: 0.25s;
 }
 .proj-title {
